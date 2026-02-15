@@ -115,3 +115,46 @@ footer {
         max-width: 300px;
     }
 }
+
+/* Author Section Layout */
+
+.author {
+    margin-top: 120px;
+    padding-top: 60px;
+    border-top: 1px solid var(--border);
+}
+
+.author-grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 48px;
+    align-items: start;
+}
+
+.author-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.author-content h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.author-content p {
+    max-width: 760px;
+    margin-bottom: 18px;
+}
+
+/* Responsive */
+
+@media (max-width: 820px) {
+    .author-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .author-image {
+        max-width: 220px;
+    }
+}
