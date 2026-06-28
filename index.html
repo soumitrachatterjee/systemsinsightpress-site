@@ -2,159 +2,271 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Systems Insight Press — Independent Publishing Imprint</title>
+    <title>Systems Insight Press — Books on Systems Thinking, Compiler Engineering &amp; Human Transformation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Independent publishing imprint exploring systems thinking, architectural rigor, and long-term intellectual work across technology and human transformation.">
+    <meta name="description" content="Systems Insight Press publishes books by Soumitra Chatterjee on systems thinking, compiler frontend engineering, and human transformation — including Engineering the Self, The Compiler Frontend, and The Ceiling You Didn't Know Existed.">
+    <meta name="author" content="Soumitra Chatterjee">
+    <meta name="keywords" content="Systems Insight Press, Soumitra Chatterjee, Engineering the Self, The Compiler Frontend, The Ceiling You Didn't Know Existed, systems thinking, compiler engineering, personal transformation">
+    <link rel="canonical" href="https://systemsinsightpress.com/">
 
     <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Systems Insight Press — Independent Publishing Imprint">
-    <meta property="og:description" content="Independent publishing imprint exploring systems thinking, architectural rigor, and long-term intellectual work across technology and human transformation.">
+    <meta property="og:title" content="Systems Insight Press — Books on Systems Thinking &amp; Engineering">
+    <meta property="og:description" content="Independent publishing imprint by Soumitra Chatterjee. Three books exploring systems, architecture, and the limits we accept before we encounter them.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://systemsinsightpress.com">
+    <meta property="og:url" content="https://systemsinsightpress.com/">
     <meta property="og:image" content="https://systemsinsightpress.com/images/og-preview.png">
+    <meta property="og:site_name" content="Systems Insight Press">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Systems Insight Press — Independent Publishing Imprint">
-    <meta name="twitter:description" content="Independent publishing imprint exploring systems thinking, architectural rigor, and long-term intellectual work across technology and human transformation.">
+    <meta name="twitter:title" content="Systems Insight Press — Books on Systems Thinking &amp; Engineering">
+    <meta name="twitter:description" content="Independent publishing imprint by Soumitra Chatterjee. Three books exploring systems, architecture, and the limits we accept before we encounter them.">
     <meta name="twitter:image" content="https://systemsinsightpress.com/images/og-preview.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://systemsinsightpress.com/#organization",
+                "name": "Systems Insight Press",
+                "url": "https://systemsinsightpress.com/",
+                "logo": "https://systemsinsightpress.com/images/mark.png",
+                "description": "Independent publishing imprint exploring systems thinking, architectural rigor, and long-term intellectual work across technology and human transformation."
+            },
+            {
+                "@type": "Person",
+                "@id": "https://systemsinsightpress.com/#author",
+                "name": "Soumitra Chatterjee",
+                "jobTitle": "Systems Software Engineer & Writer",
+                "description": "Systems software engineer and writer with more than two decades of experience in compiler frontends, programming languages, and performance-critical system software.",
+                "knowsAbout": ["Compiler Engineering", "Systems Thinking", "Programming Languages", "Software Architecture"]
+            },
+            {
+                "@type": "Book",
+                "name": "Engineering the Self",
+                "author": { "@id": "https://systemsinsightpress.com/#author" },
+                "publisher": { "@id": "https://systemsinsightpress.com/#organization" },
+                "description": "A systems engineering approach to personal transformation — why doing everything right can still fail when the architecture itself is broken.",
+                "url": "https://systemsinsightpress.com/#engineering-the-self",
+                "image": "https://systemsinsightpress.com/images/engineering-the-self.png",
+                "offers": [
+                    { "@type": "Offer", "url": "https://www.amazon.com/Engineering-Self-Journey-Through-Discipline/dp/B0GF6KKMND", "seller": { "@type": "Organization", "name": "Amazon" } },
+                    { "@type": "Offer", "url": "https://store.pothi.com/book/soumitra-chatterjee-engineering-self/", "seller": { "@type": "Organization", "name": "Pothi" } }
+                ]
+            },
+            {
+                "@type": "Book",
+                "name": "The Compiler Frontend",
+                "author": { "@id": "https://systemsinsightpress.com/#author" },
+                "publisher": { "@id": "https://systemsinsightpress.com/#organization" },
+                "description": "An exploration of the responsibility, judgment, and architectural decisions that sit between human intent and machine execution.",
+                "url": "https://systemsinsightpress.com/#compiler-frontend",
+                "image": "https://systemsinsightpress.com/images/compiler-frontend.png",
+                "offers": [
+                    { "@type": "Offer", "url": "https://www.amazon.com/Compiler-Frontend-Meaning-Responsibility-Machines/dp/B0GH1SFR2F", "seller": { "@type": "Organization", "name": "Amazon" } },
+                    { "@type": "Offer", "url": "https://store.pothi.com/book/soumitra-chatterjee-compiler-frontend/", "seller": { "@type": "Organization", "name": "Pothi" } }
+                ]
+            },
+            {
+                "@type": "Book",
+                "name": "The Ceiling You Didn't Know Existed",
+                "author": { "@id": "https://systemsinsightpress.com/#author" },
+                "publisher": { "@id": "https://systemsinsightpress.com/#organization" },
+                "description": "A focused examination of how limits are misidentified — how assumptions harden into boundaries, and how systems are abandoned before they are allowed to respond.",
+                "url": "https://systemsinsightpress.com/#ceiling-you-didnt-know",
+                "image": "https://systemsinsightpress.com/images/ceiling-you-didnt-know.png",
+                "offers": [
+                    { "@type": "Offer", "url": "https://www.amazon.com/Ceiling-Didnt-Know-Existed-Impossibility/dp/B0GMK9V19Y", "seller": { "@type": "Organization", "name": "Amazon" } },
+                    { "@type": "Offer", "url": "https://store.pothi.com/book/soumitra-chatterjee-ceiling-you-didn%E2%80%99t-know-existed/", "seller": { "@type": "Organization", "name": "Pothi" } }
+                ]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://systemsinsightpress.com/#website",
+                "url": "https://systemsinsightpress.com/",
+                "name": "Systems Insight Press",
+                "publisher": { "@id": "https://systemsinsightpress.com/#organization" }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
-<div class="container">
 
-<header>
-    <img src="images/mark.png" alt="Systems Insight Press Mark" class="header-mark" width="128" height="128">
-    <h1>Systems Insight Press</h1>
-    <p class="tagline">
-        An independent imprint publishing work on systems thinking,
-        engineering discipline, and the architecture of transformation.
-    </p>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <div class="site-header-inner">
+        <a class="logo" href="/">
+            <img src="images/mark.png" alt="" width="128" height="128">
+            <span>Systems Insight Press</span>
+        </a>
+        <nav class="site-nav" aria-label="Book navigation">
+            <a href="#engineering-the-self">Engineering the Self</a>
+            <a href="#compiler-frontend">The Compiler Frontend</a>
+            <a href="#ceiling-you-didnt-know">The Ceiling</a>
+            <a href="#author">Author</a>
+        </nav>
+    </div>
 </header>
 
-<main>
-<section id="engineering-the-self" class="book">
-    <img src="images/engineering-the-self.png" alt="Engineering the Self cover" width="480" height="727">
-    <div>
-        <h2>Engineering the Self</h2>
-        <p>
+<section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-inner">
+        <img src="images/mark.png" alt="Systems Insight Press mark" class="hero-mark" width="128" height="128">
+        <h1 id="hero-heading">Systems that deserve to be understood precisely</h1>
+        <p class="hero-tagline">
+            An independent imprint publishing work on systems thinking, engineering discipline,
+            and the architecture of transformation — across technology and human experience.
+        </p>
+        <a class="hero-cta" href="#books">Explore the books</a>
+    </div>
+</section>
+
+<main id="main">
+
+<div class="section-header" id="books">
+    <h2>Three books. One inquiry.</h2>
+    <p>A loose trilogy exploring how systems evolve, fail, and are rebuilt — and how untested conclusions become structural constraints.</p>
+</div>
+
+<div class="books">
+
+<article id="engineering-the-self" class="book" itemscope itemtype="https://schema.org/Book">
+    <div class="book-cover">
+        <img src="images/engineering-the-self.png" alt="Cover of Engineering the Self by Soumitra Chatterjee" width="480" height="727" itemprop="image">
+    </div>
+    <div class="book-content">
+        <p class="book-subtitle">Personal Systems</p>
+        <h3 itemprop="name">Engineering the Self</h3>
+        <p class="book-lead">
             <strong>Engineering the Self</strong> is not a fitness book.
             It is not a motivational memoir.
             And it is not another guide that tells you to “try harder.”
         </p>
         <p>
-            It is the story of a system that looked functional from the outside—disciplined, compliant, consistent—yet kept producing incoherent results.
+            It is the story of a system that appeared functional from the outside — disciplined, compliant, consistent — yet kept producing incoherent results. Told through the lens of systems engineering, this book chronicles a multi-year personal transformation that defied conventional explanations.
         </p>
         <p>
-            Told through the lens of systems engineering by an engineer accustomed to diagnosing failure in complex systems, this book chronicles a multi-year personal transformation that defied conventional explanations.
+            Despite near-perfect execution of diet, training, and discipline, progress stalled. Metrics contradicted reality. Effort stopped scaling. The logs looked clean. But the system behaved as if something deeper was broken.
         </p>
         <p>
-            Despite near-perfect execution of diet, training, and discipline, progress stalled. Metrics contradicted reality. Effort stopped scaling. The logs looked clean—but the system behaved as if something deeper was broken.
+            The breakthrough came not from pushing harder, but from diagnosing the architecture itself. At the core of this story is a realization most self-improvement narratives miss: when a low-level subsystem is compromised, no amount of effort at the surface can compensate. In this case, the silent fault lived at the firmware level — quietly sabotaging metabolism, recovery, fat distribution, and emotional stability for years without triggering obvious alarms.
         </p>
         <p>
-            The breakthrough came not from pushing harder, but from diagnosing the architecture itself.
+            Once that fault was addressed, everything upstream began to change. Not explosively. Not magically. But coherently. Energy stabilized. Recovery scaled. Metrics stopped lying. The body stopped fighting discipline.
         </p>
         <p>
-            At the core of the story is a realization most self-improvement narratives miss: when a low-level subsystem is compromised, no amount of effort at the surface can compensate. In this case, the silent fault lived at the firmware level—quietly sabotaging metabolism, recovery, fat distribution, and emotional stability for years without ever triggering obvious alarms.
+            More than a personal journey, <em>Engineering the Self</em> offers a transferable framework for understanding human transformation as a system rebuild:
         </p>
+        <span class="framework">Inputs → Processes → Subsystems → Drivers → Metrics → Outputs</span>
         <p>
-            Once that fault was identified and addressed, everything upstream began to change. Not explosively. Not magically. But coherently.
+            Readers learn why “doing everything right” can still fail — and how to recognize when the real problem is not motivation, nutrition, or willpower, but architecture. Written with precision, humility, and intellectual honesty, this book is for anyone who has ever asked:
         </p>
-        <p>
-            Energy stabilized.
-            Recovery began to scale.
-            Metrics stopped lying.
-            The body stopped fighting discipline.
-        </p>
-        <p>
-            More than a personal journey, Engineering the Self offers a transferable framework for understanding human transformation as a system rebuild:
-        </p>
-        <p><strong>
-            Inputs → Processes → Subsystems → Drivers → Metrics → Outputs
-        </strong></p>
-        <p>
-            Readers learn why “doing everything right” can still fail, how to distinguish noise from signal, and how to recognize when the real problem is not motivation, nutrition, or willpower—but architecture.
-        </p>
-        <p>
-            Written with precision, humility, and intellectual honesty, the book is a tribute to correct diagnosis, disciplined execution, and the kind of guidance that sees what effort alone cannot. It is for anyone who has ever asked:
-        </p>
-        <p>
-            <em>“Why isn’t this working—when I’m doing everything right?”</em>
-        </p>
-        <div class="links">
-            <a href="https://www.amazon.com/Engineering-Self-Journey-Through-Discipline/dp/B0GF6KKMND" target="_blank" rel="noopener noreferrer">Amazon.com</a>
-            <a href="https://store.pothi.com/book/soumitra-chatterjee-engineering-self/" target="_blank" rel="noopener noreferrer">Pothi</a>
+        <blockquote class="pullquote">“Why isn’t this working — when I’m doing everything right?”</blockquote>
+        <div class="book-actions">
+            <a class="btn btn-primary" href="https://www.amazon.com/Engineering-Self-Journey-Through-Discipline/dp/B0GF6KKMND" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+            <a class="btn btn-secondary" href="https://store.pothi.com/book/soumitra-chatterjee-engineering-self/" target="_blank" rel="noopener noreferrer">Buy on Pothi</a>
         </div>
     </div>
-</section>
+</article>
 
-<section id="compiler-frontend" class="book">
-    <img src="images/compiler-frontend.png" alt="The Compiler Frontend cover" width="480" height="716" loading="lazy">
-    <div>
-        <h2>The Compiler Frontend</h2>
-        <p>
-            A practitioner’s exploration of compiler frontend engineering.
-            Focused on correctness, abstraction boundaries, ecosystem contracts,
-            and the architectural depth of frontend systems.
+<article id="compiler-frontend" class="book" itemscope itemtype="https://schema.org/Book">
+    <div class="book-cover">
+        <img src="images/compiler-frontend.png" alt="Cover of The Compiler Frontend by Soumitra Chatterjee" width="480" height="716" loading="lazy" itemprop="image">
+    </div>
+    <div class="book-content">
+        <p class="book-subtitle">Technical Systems</p>
+        <h3 itemprop="name">The Compiler Frontend</h3>
+        <p class="book-lead">
+            <strong>The Compiler Frontend</strong> is not a language tutorial.
+            It is not a syntax reference.
+            And it is not a step-by-step guide to building a compiler.
         </p>
-        <div class="links">
-            <a href="https://www.amazon.com/Compiler-Frontend-Meaning-Responsibility-Machines/dp/B0GH1SFR2F" target="_blank" rel="noopener noreferrer">Amazon.com</a>
-            <a href="https://store.pothi.com/book/soumitra-chatterjee-compiler-frontend/" target="_blank" rel="noopener noreferrer">Pothi</a>
+        <p>
+            It is an exploration of the responsibility, judgment, and architectural decisions that sit between human intent and machine execution. Written from the perspective of a practicing systems engineer, this book examines the compiler frontend as the most human-facing part of a compiler — the layer where meaning is interpreted, ambiguity is resolved, and design intent either survives or collapses.
+        </p>
+        <p>
+            Rather than focusing on algorithms alone, the book traces the deeper questions frontend engineers confront daily: what correctness really means, how errors should be represented, where responsibility ends, and how small design choices ripple through entire systems.
+        </p>
+        <p>
+            Across real-world examples and hard-earned lessons, it argues that many failures attributed to “backends,” “optimizers,” or “runtime behavior” originate much earlier — at the boundary where humans describe what they want and machines attempt to understand it.
+        </p>
+        <blockquote class="pullquote">For engineers who care not just about making code work, but about making systems trustworthy.</blockquote>
+        <div class="book-actions">
+            <a class="btn btn-primary" href="https://www.amazon.com/Compiler-Frontend-Meaning-Responsibility-Machines/dp/B0GH1SFR2F" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+            <a class="btn btn-secondary" href="https://store.pothi.com/book/soumitra-chatterjee-compiler-frontend/" target="_blank" rel="noopener noreferrer">Buy on Pothi</a>
         </div>
     </div>
-</section>
+</article>
 
-<section id="ceiling-you-didnt-know" class="book">
-    <img src="images/ceiling-you-didnt-know.png" alt="The Ceiling You Didn’t Know Existed cover" width="480" height="720" loading="lazy">
-    <div>
-        <h2>The Ceiling You Didn’t Know Existed</h2>
-        <p>
-            An examination of assumed limits and discovered constraints.
-            Explores how premature conclusions shape identity, effort,
-            and long-term outcomes across technical and personal systems.
+<article id="ceiling-you-didnt-know" class="book" itemscope itemtype="https://schema.org/Book">
+    <div class="book-cover">
+        <img src="images/ceiling-you-didnt-know.png" alt="Cover of The Ceiling You Didn't Know Existed by Soumitra Chatterjee" width="480" height="720" loading="lazy" itemprop="image">
+    </div>
+    <div class="book-content">
+        <p class="book-subtitle">Limits &amp; Constraints</p>
+        <h3 itemprop="name">The Ceiling You Didn’t Know Existed</h3>
+        <p class="book-lead">
+            Most limits are accepted long before they are encountered. They arrive not as resistance from reality, but as conclusions drawn in advance — often confidently, sometimes proudly. What feels like realism is frequently something quieter: a decision made without contact.
         </p>
-        <div class="links">
-            <a href="https://www.amazon.com/Ceiling-Didnt-Know-Existed-Impossibility/dp/B0GMK9V19Y" target="_blank" rel="noopener noreferrer">Amazon.com</a>
-            <a href="https://store.pothi.com/book/soumitra-chatterjee-ceiling-you-didn%E2%80%99t-know-existed/" target="_blank" rel="noopener noreferrer">Pothi</a>
+        <p>
+            <strong>The Ceiling You Didn’t Know Existed</strong> is not a book about motivation, discipline, or achieving more. It is a short, focused examination of how limits are misidentified — how assumptions harden into boundaries, and how systems are abandoned before they are allowed to respond.
+        </p>
+        <p>
+            Through a clear conceptual framework and two contrasting case studies — one professional, one personal — the book explores a recurring pattern: assumed limits replace discovered constraints, ambiguity is mistaken for evidence, and disengagement masquerades as maturity.
+        </p>
+        <p>
+            The argument is deliberately narrow. It does not offer steps, habits, or prescriptions. Instead, it names a mechanism that operates continuously, often below the threshold of notice, shaping decisions large and small through premature certainty.
+        </p>
+        <blockquote class="pullquote">This is not a book to skim for takeaways. It is a book to read carefully — and to notice oneself while reading. If it succeeds, it will not persuade or inspire. It will clarify.</blockquote>
+        <div class="book-actions">
+            <a class="btn btn-primary" href="https://www.amazon.com/Ceiling-Didnt-Know-Existed-Impossibility/dp/B0GMK9V19Y" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+            <a class="btn btn-secondary" href="https://store.pothi.com/book/soumitra-chatterjee-ceiling-you-didn%E2%80%99t-know-existed/" target="_blank" rel="noopener noreferrer">Buy on Pothi</a>
         </div>
     </div>
-</section>
+</article>
 
-<section class="author">
-    <div class="author-grid">
+</div>
+
+<section id="author" class="author" aria-labelledby="author-heading">
+    <div class="author-inner">
         <div class="author-image">
-            <img src="images/author-profile.png" alt="Soumitra Chatterjee" width="400" height="401" loading="lazy">
+            <img src="images/author-profile.png" alt="Soumitra Chatterjee, author and systems software engineer" width="400" height="401" loading="lazy">
         </div>
         <div class="author-content">
-            <h2>Author</h2>
+            <h2 id="author-heading">About the Author</h2>
             <p>
-                Soumitra Chatterjee is a systems engineer and writer based in Bengaluru, India.
+                <strong>Soumitra Chatterjee</strong> is a systems software engineer and writer based in Bengaluru, India, with more than two decades of experience building and enabling complex software systems at scale. His work is deeply grounded in compiler frontends, programming languages, and performance-critical system software, with extensive hands-on experience across production compilers, toolchains, and debugging infrastructure in enterprise and high-performance computing environments.
             </p>
             <p>
-                Over more than two decades, his work has spanned compiler frontend architecture,
-                large-scale software systems, and GPU software enablement for AI and scientific computing.
+                Over time, his work has expanded beyond core compiler engineering into broader software enablement — bridging platforms, ecosystems, and workloads where correctness, compatibility, and long-term maintainability matter as much as performance. His current focus spans system software and AI/ML enablement, helping modern workloads migrate, scale, and remain reliable across heterogeneous compute environments.
             </p>
             <p>
-                His writing reflects a sustained interest in how systems behave under constraint—
-                whether technical, biological, or psychological.
+                He is known for connecting low-level architecture and abstractions with real-world application needs, diagnosing hard problems across layers, and making complex systems usable and trustworthy over time. He is drawn to the quiet mechanics of systems — how they evolve, how they fail, and how they are rebuilt — and to the same question across domains as different as software and human behavior: how do untested conclusions become structural constraints?
+            </p>
+            <p class="author-trilogy">
+                His three books — <strong>Engineering the Self</strong>, <strong>The Compiler Frontend</strong>, and <strong>The Ceiling You Didn’t Know Existed</strong> — form a loose trilogy exploring systems, identity, and limits: not as obstacles to overcome, but as phenomena to be understood precisely.
             </p>
         </div>
     </div>
 </section>
+
 </main>
 
 <footer>
-    © 2026 Systems Insight Press · Bengaluru, India
+    <p>© 2026 Systems Insight Press · Bengaluru, India</p>
 </footer>
 
-</div>
 </body>
 </html>
